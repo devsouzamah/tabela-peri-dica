@@ -1,0 +1,125 @@
+:root{
+    --corprincipal:  rgb(221, 220, 220);
+    --cortítulo: rgb(4, 30, 177);
+    --corsecundaria: rgb(255, 255, 255);
+    --nao-metal:rgb(180,210,100);
+	--gas-nobre:rgb(100,180,225);
+	--metal-alcalino:rgb(245,200,100);
+	--metal-alcalino-terroso:rgb(240,230,90);
+	--semimetal:rgb(110,200,190);
+	--halogenio:rgb(170,225,255);
+	--outros-metais:rgb(190,210,210);
+	--metal-transicao:rgb(245,175,175);
+	--lantanideo:rgb(150,225,225);
+	--actinidio:rgb(230,190,220);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--corprincipal);
+    
+}
+
+/*Título e nome dos elementos químicos*/
+
+h2{
+  text-align: center;
+  color: var(--cortítulo);
+}
+
+h3{
+    color: var(--corsecundaria);
+}
+
+h4{
+    color: var(--corsecundaria);
+    
+}
+
+h5{
+    color: var(--corsecundaria);
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: var(--cortítulo);
+}
+
+/*Estilizando a tabela periódica*/
+
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+table{
+    width: 50% !important; 
+    margin: auto;
+    border-collapse: collapse;
+    font-size: small;
+}
+
+td{
+    color: var(--corsecundaria);
+    font-size: 1em;
+    border: 1px solid black;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+.vazio{
+    border: none;
+  }
+
+tr .não-metal{
+    background-color: var(--nao-metal);
+}
+
+tr .gas-nobre{
+    background-color: var(--gas-nobre);
+}
+
+tr .metal-alcalino{
+    background-color: var(--metal-alcalino);
+}
+
+tr .metal-alcalino-terroso{
+    background-color: var(--metal-alcalino-terroso);
+}
+
+tr .semimetal{
+    background-color: var(--semimetal);
+}
+
+tr .outros-metais{
+    background-color: var(--outros-metais);
+}
+
+tr .metal-transicao{
+    background-color: var(--metal-transicao);
+}
+
+tr .halogenio{
+    background-color: var(--halogenio);
+}
+
+tr .lantanideo{
+    background-color: var(--lantanideo);
+}
+
+tr .actinidio{
+    background-color: var(--actinidio);
+}
+
+
